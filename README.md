@@ -68,10 +68,6 @@ Some example images and the detection results are as follows:
 </p>
 
 
-## Transfer Learning
-
-In this section, you'll see how to use an example dataset called [aicook](https://universe.roboflow.com/karel-cornelis-q2qqg/aicook-lcv4d/4), used to detect ingredients in your fridge, to fine-tune the YOLOv5 model. For more info on the YOLOv5 transfer learning, see [here](https://github.com/ultralytics/yolov5/issues/1314). If you use the default YOLOv5 model to do object detection on what's inside your fridge, you'll likely not get good results. That's why you need to have a custom model trained with a dataset like aicook.
-
 ### 1. Download the custom dataset
 
 Simply go to [here](https://universe.roboflow.com/karel-cornelis-q2qqg/aicook-lcv4d/4) to download the aicook dataset in a zip file. Unzip the file to your `yolov5` repo directory, then run `cd yolov5; mv train ..; mv valid ..;` as the aicook `data.yaml` specifies the `train` and `val` folders to be up one level.
