@@ -66,6 +66,11 @@ Some example images and the detection results are as follows:
 
 ![app_yolo5_2](https://github.com/user-attachments/assets/6eb99d77-52fa-4c31-9cf0-7aa05dc7afda)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f80dd07-a293-4a6f-af4a-f36f79ce14a3" alt="app_yolo5_1" width="300"/>
+  <img src="https://github.com/user-attachments/assets/6eb99d77-52fa-4c31-9cf0-7aa05dc7afda" alt="app_yolo5_2" width="300"/>
+</p>
+
 
 ## Transfer Learning
 
