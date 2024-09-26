@@ -62,11 +62,10 @@ Select an Android emulator or device to run the app. You can go through the incl
 
 Some example images and the detection results are as follows:
 
-![](screenshot1.png)
-![](screenshot2.png)
+![app_yolo5_1](https://github.com/user-attachments/assets/2f80dd07-a293-4a6f-af4a-f36f79ce14a3)
 
-![](screenshot3.png)
-![](screenshot4.png)
+![app_yolo5_2](https://github.com/user-attachments/assets/6eb99d77-52fa-4c31-9cf0-7aa05dc7afda)
+
 
 ## Transfer Learning
 
