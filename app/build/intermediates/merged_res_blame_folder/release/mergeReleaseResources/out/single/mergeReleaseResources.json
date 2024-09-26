@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/layout_activity_main.xml.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/layout_texture_view.xml.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/layout/texture_view.xml"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/layout_activity_object_detection.xml.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/layout/activity_object_detection.xml"
+    },
+    {
+        "merged": "org.pytorch.demo.objectdetection.app-release-11:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.pytorch.demo.objectdetection.app-main-12:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
