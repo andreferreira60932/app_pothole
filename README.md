@@ -105,12 +105,6 @@ In Android Studio, first in `MainActivity.java`, change line:
 ```
 private String[] mTestImages = {"test1.png", "test2.jpg", "test3.png"};
 ```
-to:
-```
-private String[] mTestImages = {"aicook1.jpg", "aicook2.jpg", "aicook3.jpg", "test1.png", "test2.jpg", "test3.png"};
-```
-(The three aicook test images have been added to the repo.)
-
 and change lines:
 ```
 mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "yolov5s.torchscript.ptl"));
