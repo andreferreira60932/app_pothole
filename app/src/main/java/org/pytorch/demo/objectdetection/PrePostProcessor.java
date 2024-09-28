@@ -23,7 +23,7 @@ class Result {
         this.score = output;
         this.rect = rect;
     }
-};
+}
 
 public class PrePostProcessor {
     // for yolov5 model, no need to apply MEAN and STD
@@ -37,8 +37,8 @@ public class PrePostProcessor {
     // model output is of size 25200*(num_of_class+5)
     private static int mOutputRow = 25200; // as decided by the YOLOv5 model for input image of size 640*640
     private static int mOutputColumn = 6; // left, top, right, bottom, score and 80 class probability
-    private static float mThreshold = 0.25f; // score above which a detection is generated
-    private static int mNmsLimit = 15;
+    private static float mThreshold = 0.60f; // score above which a detection is generated
+    private static int mNmsLimit = 5; //15 to 5
 
     static String[] mClasses;
 
@@ -54,13 +54,12 @@ public class PrePostProcessor {
     static ArrayList<Result> nonMaxSuppression(ArrayList<Result> boxes, int limit, float threshold) {
 
         // Do an argsort on the confidence scores, from high to low.
-        Collections.sort(boxes,
-                new Comparator<Result>() {
-                    @Override
-                    public int compare(Result o1, Result o2) {
-                        return o1.score.compareTo(o2.score);
-                    }
-                });
+        boxes.sort(new Comparator<Result>() {
+            @Override
+            public int compare(Result o1, Result o2) {
+                return o1.score.compareTo(o2.score);
+            }
+        });
 
         ArrayList<Result> selected = new ArrayList<>();
         boolean[] active = new boolean[boxes.size()];

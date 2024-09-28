@@ -42,6 +42,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         }
 
         try (InputStream is = context.getAssets().open(assetName)) {
-            try (OutputStream os = new FileOutputStream(file)) {
+            try (OutputStream os = Files.newOutputStream(file.toPath())) {
                 byte[] buffer = new byte[4 * 1024];
                 int read;
                 while ((read = is.read(buffer)) != -1) {
